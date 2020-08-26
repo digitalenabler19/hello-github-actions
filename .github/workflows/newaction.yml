@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: digitalenabler19/AutomationAnywhereDeployment@v3
+      uses: digitalenabler19/AutomationAnywhereDeployment@v4
       with:
         who-to-greet: 'Mona the Octocat'
         user-name-secret: ${{secrets.USERNAME}}
