@@ -18,7 +18,7 @@ jobs:
     steps:
      - name: Hello world action step
       id: hello
-      uses: actions/AutomationAnywhereDeployment@v1
+      uses: digitalenabler19/AutomationAnywhereDeployment@v1
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
