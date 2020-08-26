@@ -10,7 +10,7 @@ jobs:
       uses: digitalenabler19/AutomationAnywhereDeployment@v9
       with:
         who-to-greet: 'Mona the Octocat'
-        user-name-secret: ${{secrets.USERNAME}}
+        user-name-secret: 'prasad'
         user-password: 'password1'
         URL: 'http://ec2-3-6-118-186.ap-south-1.compute.amazonaws.com'
     # Use the output from the `hello` step
